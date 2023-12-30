@@ -1,4 +1,4 @@
-package bfs_dfs.bfsAlgo;
+package bfs_dfs.bfsAlgo.queue;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -28,7 +28,7 @@ public class QueueBFS {
     }
     public static void bfs(int node) {
         queue.add(node);
-        
+
         while(!queue.isEmpty()){ // 큐가 비어있을때 까지 순회
             int pop = queue.poll(); // 맨 왼쪽노드 빼기
             sb.append(pop);
