@@ -9,9 +9,9 @@ import java.util.Stack;
 public class IslandStack {
     static int answer = 0;
     static int[][] graph = {
-            {1, 1, 0, 1, 0},
-            {1, 1 ,1, 1, 0},
-            {0, 0, 1, 0, 0},
+            {0, 0, 0, 0, 0},
+            {0, 0 ,0, 0, 0},
+            {0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0}
 
     };
@@ -33,7 +33,7 @@ public class IslandStack {
                     List<Integer> nodes = new ArrayList<>();
                     nodes.add(i);
                     nodes.add(j);
-                    graph[i][j] = 0;
+                    //graph[i][j] = 0;
                     dfs_stack(nodes);
                 }
             }

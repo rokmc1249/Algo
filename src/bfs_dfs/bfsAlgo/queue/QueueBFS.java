@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class QueueBFS {
     static int[][]graph = {
-            {2, 3, 4},
+            {2, 3},
             {5},
             {5},
             {},
