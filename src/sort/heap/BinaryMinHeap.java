@@ -8,7 +8,7 @@ public class BinaryMinHeap {
     private List<Integer> items = new ArrayList<>();
 
     public BinaryMinHeap() {
-        // Add a dummy item at index 0 for convenience
+        // null을 넣어서 인덱스를 1부터 시작
         items.add(null);
     }
 

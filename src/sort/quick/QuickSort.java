@@ -30,7 +30,7 @@ public class QuickSort {
         return i+1;
     }
     public static void main(String[] args) {
-        int []a={1, 6, 2, 9, 4};
+        int []a={2, 1, 6, 2, 4};
         int []b={3, 2, 1, 5, 3, 2, 3};
         System.out.println(Arrays.toString(quick(a,0,a.length-1)));
         System.out.println(Arrays.toString(quick(b,0,b.length-1)));
