@@ -1,11 +1,10 @@
-package dijkstra.algo;
+package dijkstra.priorityQueueAlgo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Dijkstra {
+public class DijkstraPQ {
     static ArrayList<int[]>[] graph;
     public static int[] dijkstra(int n,int[][]example){
         int[]dist=new int[n+1];
