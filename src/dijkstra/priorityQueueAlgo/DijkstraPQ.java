@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class DijkstraPQ {
-    static ArrayList<int[]>[] graph;
+    static ArrayList<int[]>[]graph;
     public static int[] dijkstra(int n,int[][]example){
         int[]dist=new int[n+1];
         Arrays.fill(dist,Integer.MAX_VALUE); // 처음 가중치 MAX_VALUE로 설정
