@@ -32,7 +32,7 @@ public class QueueBFS {
         while(!queue.isEmpty()){ // 큐가 비어있을때 까지 순회
             int pop = queue.poll(); // 맨 왼쪽노드 빼기
             sb.append(pop);
-            //visited[pop-1]=true;
+            
             for(int nextNode:graph[pop-1]){ // 큐에서 뺀 노드가 가지고 있는 노드들 순회
                 if(!visited[nextNode]) { // 방문한적 없는 경우
                     queue.add(nextNode);
